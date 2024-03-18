@@ -1,0 +1,153 @@
+header {
+	padding: 50px 50px;
+}
+
+h2 {
+	font-size: 25px;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: -110px;
+	margin-top: -50px;
+	margin-bottom: 60px;
+}
+
+body {
+	background-color: #121212;
+	color: white;
+}
+
+section#main {
+	display: flex;
+	padding: 50px 0px 300px 100px;
+	color: white;
+}
+
+section#informationSection {
+	justify-content: space-evenly;
+	padding: 70px 150px;
+	background-color: #6f9556;
+	border-radius: 40px;
+	display: block;
+	margin-left: 200px;
+	justify-content: center;
+}
+
+#withdrawBtn {
+	font-family: Arial;
+	font-size: 12;
+	border-radius: 30px;
+	background-color: #383939;
+	color: white;
+	margin-top: 10px;
+	border: #383939;
+	padding: 12px 28px;
+	font-weight: bold;
+	margin-left: 46px;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+#account {
+	border-radius: 15px;
+	padding: 7px 17px;
+	margin-bottom: 7px;
+}
+
+#amount {
+	border-radius: 15px;
+	padding: 7px 17px;
+	margin-bottom: 7px;
+}
+
+label {
+	margin-left: 5px;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 5;
+}
+
+#menu {
+	display: block;
+	width: 300px;
+	height: 400px;
+	margin-top: 0px;
+	margin-left: 100px;
+}
+
+footer {
+	display: flex;
+	padding: 15px 720px;
+}
+
+#footerLeft {
+	display: block;
+	margin-left: 15%;
+	padding: 50px 100px;
+}
+
+#location {
+	margin-bottom: 10px;
+	margin-left: -200px;
+	margin-right: 20px;
+}
+
+#contactNumber {
+	margin-bottom: 10px;
+	margin-left: -200px;
+}
+
+#email {
+	margin-left: -200px;
+}
+
+#footerRight {
+	padding: 50px 30px;
+}
+
+#test {
+	margin-left: -9px;
+}
+
+ul {
+	list-style-type: none;
+	margin-top: -3%;
+}
+
+li {
+	padding: 6px;
+}
+
+#liAboutUs {
+	margn-top: -20px;
+}
+
+hr{
+border: 1px solid white;
+}
+
+#logo{
+margin-left: 9%;
+}
+
+#displayBoxFail{
+background-color: red;
+padding: 12px;
+font-family: Arial;
+margin-left: 17.3%;
+margin-top: -8%;
+position: fixed;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+}
+
+#displayBoxSuccess{
+background-color: green;
+padding: 12px;
+font-family: Arial;
+margin-left: 17.3%;
+margin-top: -8%;
+position: fixed;
+border-top-right-radius: 25px;
+border-bottom-right-radius: 25px;
+}

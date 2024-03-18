@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd" id="Application_ID" version="8">
+  <display-name>BankEAR</display-name>
+  <module>
+    <ejb>BankEJBProject.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>BankClientProject.war</web-uri>
+      <context-root>BankClientProject</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>RestBankClient.war</web-uri>
+      <context-root>RestBankClient</context-root>
+    </web>
+  </module>
+</application>

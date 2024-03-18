@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JUnit Test</title>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href ="css/index.css">
+</head>
+<script src="main.js"></script>
+<body>
+<header><img src = "https://i.postimg.cc/tCJctbLj/senaste-logga.png" id = "logo"></header>
+		<section id="main">
+			<nav id="menu">
+				<a href="Home.jsp"> <img
+					src="https://i.postimg.cc/CxZ3QVBL/home-vit.jpg">
+				</a> <a href="Accounts.jsp"> <img
+					src="https://i.postimg.cc/fLpDpsPy/accountsnyvit.jpg">
+				</a> <a href="Withdraw.jsp"> <img
+					src="https://i.postimg.cc/SQMzknBW/withdrawvit.jpg">
+				</a> <a href="Deposit.jsp"> <img
+					src="https://i.postimg.cc/t4X132Y5/depositvit.jpg">
+				</a> <a href="Settings.jsp"> <img
+					src="https://i.postimg.cc/QVLPkyVh/profile-vit.jpg">
+				</a>
+				<form action="/BankClientProject/BankServlet" method="get">
+					<input type=image src="https://i.postimg.cc/qMrgrjXT/logoutvit.jpg"
+						alt="Submit feedback"> <input name="operation"
+						value="logout" type="hidden">
+				</form>
+			</nav>
+			<section id="informationSection">
+				<h2>
+				<p>
+					Here you can test our facade methods:<br>
+				</p>
+				</h2>
+				<form name="myForm" method="get" name="youPickItForm"
+					action=TestServlet id = "myForm">
+					<select name="suite" size="2" multiple>
+						<option value="ics.junit.ejb.FacadeTestCustomer">ics.junit.ejb.FacadeTestCustomer</option>
+						<option value="ics.junit.ejb.FacadeTestAccount">ics.junit.ejb.FacadeTestAccount</option>
+					</select> <br><input type="submit" value="Run" id ="runBtn"/>
+				</form>
+			</section>
+		</section>
+	<hr>
+	<footer>
+	<section id=footerLeft>
+		<img src="https://i.postimg.cc/Pqvkb7fh/nobel.jpg" id="location">
+		<br> <img src="https://i.postimg.cc/nzKg0by8/telefon.jpg"
+			id="contactNumber"> <br> <img
+			src="https://i.postimg.cc/nVkNmxKB/email.jpg" id="email">
+	</section>
+	<aside id=footerRight>
+		<ul>
+			<li id="liAboutUs"><a href="AboutUs.jsp" id="aboutUs"> <img
+					src="https://i.postimg.cc/g2m72kBf/about.jpg"></a></li>
+			<li id="liTest"><a href="Test.jsp" id="test"> <img
+					src="https://i.postimg.cc/Hn0tqbHj/Junit-1.jpg"></a></li>
+		</ul>
+	</aside>
+</footer>
+</body>
+
+</html>

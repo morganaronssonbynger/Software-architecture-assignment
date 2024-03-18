@@ -1,0 +1,114 @@
+header {
+	padding: 100px 100px;
+	}
+
+	h2 {
+	font-size: 20px;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: -120px;
+	margin-top: -50px;
+	}
+
+	body {
+	background-color: #171717;
+	color: white;
+	}
+
+	section#main {
+	display : flex;
+	justify-content: center;
+	padding: 10px 0px 100px 100px;
+	color: white;
+	align-items: center;
+	}
+
+	section#registerSection {
+	justify-content: space-evenly;
+	padding: 70px 150px;
+	background-color: #6f9556;
+	border-radius: 40px;
+	display: block;
+	margin-left: -100px;
+	justify-content: center;
+	position: absolute;
+	margin-top: 400px;
+	}
+
+	#registerBtn {
+	font-family: Arial;
+	font-size: 12;
+	border-radius: 30px;
+	background-color: #383939;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	border: #383939;
+	padding: 7px 20px;
+	font-weight: bold;
+	margin-left:45px;
+	cursor: pointer;
+	margin-right: -40px;
+	}
+	
+	#cancelBtn {
+	margin-left:46px;
+	cursor: pointer;
+	margin-top: 100%;
+	}
+
+	#SSN {
+	border-radius: 15px;
+	padding: 7px 17px;
+	margin-bottom: 7px;
+	}
+
+	#fullName {
+	border-radius: 15px;
+	padding: 7px 17px;
+	margin-bottom: 7px;
+	}
+
+	#address {
+	border-radius: 15px;
+	padding: 7px 17px;
+	margin-bottom: 7px;
+	}
+
+	#phoneNumber {
+	border-radius: 15px;
+	padding: 7px 17px;
+	margin-bottom: 10px
+	}
+
+	label {
+	margin-left: 5px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 5;
+	}
+	
+	#displayBoxSucced{
+	background-color: green;
+	float: right;
+	padding: 12px;
+	font-family: Arial;
+	margin-right: -567px;
+	margin-top: 200px;
+	position: fixed;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	}
+	
+	#displayBoxFail{
+	background-color: red;
+	float: right;
+	padding: 12px;
+	font-family: Arial;
+	margin-right: -864px;
+	margin-top: 200px;
+	position: fixed;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	}

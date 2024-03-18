@@ -1,0 +1,164 @@
+header {
+	padding: 10px;
+	text-align: center;
+	font-size: 35px;
+	background-color: #272323;
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+}
+
+section#row {
+	padding: 30px 0px 30px 0px;
+	display: block;
+	background-color: #272323;
+}
+
+section#row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+section#main {
+	float: left;
+	padding: 100px 200px;
+	background-color: #319ed7;
+	color: #000000;
+	margin-left: 11%;
+	border-radius: 30px;
+}
+
+section#content {
+	width: 100%;
+	background-color: transparent;
+	color: #000000;
+	margin-left: -20%;
+}
+
+footer {
+	text-align: center;
+	padding: 50px;
+	background-color: #272323;
+	clear: both;
+}
+
+nav {
+	float: left;
+	width: 20%;
+	background-color: #319ed7;
+	padding: 30px 0px 30px 0px;
+	cursor: pointer;
+	font-family: Arial;
+	margin-left: 3%;
+	margin-top: 5%;
+	border-radius: 30px;
+	color: white;
+}
+
+nav a {
+	display: block;
+	color: ffffff;
+	padding: 20px 10px;
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+nav a:link {
+	color: white;
+}
+
+nav a:visited {
+	color: white;
+}
+
+nav1 a:hover {
+	background-color: #ddd;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li:hover, nav li:focus {
+	background-color: #2a8fc3;
+	border-radius: 30px;
+}
+
+nav li.active {
+	background: #2a8fc3;
+	color: #ffffff !important;
+	border-radius: 30px;
+}
+
+aside {
+	float: right;
+	background-color: #319ed7;
+	padding: 30px 0px 30px 0px;
+	width: 13%;
+	margin-right: 150px;
+	border-radius: 30px;
+}
+
+#createBtn {
+	font-family: Arial;
+	border-radius: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	background-color: #555;
+	padding: 7px 29.5px;
+	margin-left: 40%;
+	border-color: transparent;
+	cursor: pointer;
+	margin-top: 11%;
+}
+
+label {
+	font-family: Arial;
+	font-weight: normal;
+	color: white;
+}
+
+#asideTable {
+	margin-left: 8%;
+	color: white;
+}
+
+span {
+	font-family: Arial;
+}
+
+#ssn {
+	padding: 7px 20px;
+	width: 120%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border-width: 3px;
+}
+
+#fullName {
+	padding: 7px 20px;
+	width: 120%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border-width: 3px;
+}
+
+#address {
+	padding: 7px 20px;
+	width: 120%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border-width: 3px;
+}
+
+#phoneNumber {
+	padding: 7px 20px;
+	width: 120%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	border-width: 3px;
+}

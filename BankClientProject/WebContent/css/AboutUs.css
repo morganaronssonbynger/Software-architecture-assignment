@@ -1,0 +1,123 @@
+header {
+	padding: 50px 50px;
+}
+
+h3 {
+	font-size: 20px;
+	color: white;
+	font-family: Arial;
+	font-weight: Normal;
+	margin-left: 50px;
+	width: 70%;
+}
+
+h2 {
+	font-size: 25px;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 40px;
+	width: 70%;
+}
+
+body {
+	background-color: #121212;
+	color: white;
+}
+
+section#main {
+	display: flex;
+	padding: 50px 0px 300px 100px;
+	color: white;
+}
+
+section#informationSection {
+	width: 500px;
+	height: 610px;
+	background-color: #6f9556;
+	border-radius: 40px;
+	position: absoulte;
+	margin-left: 100px;
+	align-items: center;
+	align-text:center;
+	margin-right: 20px;
+	margin-top: 8px;
+
+}
+
+#pictures{
+	margin-left: 70px;
+}
+
+
+#menu {
+	display: block;
+	width: 300px;
+	height: 400px;
+	margin-top: 0px;
+	margin-left: 100px;
+}
+
+footer {
+	display: flex;
+	padding: 15px 720px;
+}
+
+#footerLeft {
+	display: block;
+	margin-left: 15%;
+	padding: 50px 100px;
+}
+
+#location {
+	margin-bottom: 10px;
+	margin-left: -200px;
+	margin-right: 20px;
+}
+
+#contactNumber {
+	margin-bottom: 10px;
+	margin-left: -200px;
+}
+
+#email {
+	margin-left: -200px;
+}
+
+#footerRight {
+	padding: 50px 30px;
+}
+
+
+#test {
+	margin-left: -9px;
+}
+
+ul{
+	list-style-type: none;
+	margin-top: -3%;
+}
+
+li{
+	padding: 6px;
+}
+
+#liAboutUs{
+	margn-top: -20px;
+}
+
+#border{
+	border-bottom-color: white;
+	border-left-color: #171717;
+	border-top-color: #171717;
+	border-right-color: #171717;
+}
+
+hr{
+border: 1px solid white;
+}
+
+#logo{
+margin-left: 9%;
+}

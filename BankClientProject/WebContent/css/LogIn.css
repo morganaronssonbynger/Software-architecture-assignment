@@ -1,0 +1,120 @@
+
+	h1 {
+	padding: 0px;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	margin-bottom: -100px;
+	}
+
+	h2 {
+	padding: 20px;
+	font-size: 20px;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	margin-left: 706px;
+	}
+
+	body {
+	background-color: #121212;
+	background-size: 1950px 900px;
+	color: white;
+	}
+
+	section#main {
+	display : flex;
+	justify-content: center;
+	padding: 10px 0px 100px 100px;
+	color: white;
+	align-items: center;
+	}
+
+	section#loginSection {
+	justify-content: space-evenly;
+	padding: 70px 150px;
+	background-color: #6f9556;
+	border-radius: 40px;
+	display: block;
+	margin-left: -100px;
+	justify-content: center;
+	}
+
+	#LoginBtn {
+	font-family: Arial;
+	font-size: 12;
+	border-radius: 30px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	background-color: #383939;
+	color: white;
+	border: #383939;
+	padding: 7px 25px;
+	font-weight: bold;
+	margin-left:46px;
+	cursor: pointer;
+	}
+	
+	#RegisterBtn {
+	font-family: Arial;
+	font-size: 12;
+	border-radius: 30px;
+	background-color: #383939;
+	color: white;
+	margin-top: 5px;
+	border: #383939;
+	padding: 7px 20px;
+	font-weight: bold;
+	margin-left:46px;
+	cursor: pointer;
+	}
+
+	#SSN {
+	border-radius: 15px;
+	padding: 7px 17px;
+	}
+
+	label {
+	margin-left: 5px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 5;
+	}
+
+	.loginDiv {
+	background-color: transparent;
+	}
+	
+	#displayBoxFail{
+	background-color: red;
+	padding: 12px;
+	font-family: Arial;
+	margin-left: 17.3%;
+	margin-top: -7%;
+	position: fixed;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	}
+	
+	#logInBar{
+	background-color: red;
+	font-size: 20;
+	padding: 40px 20px;
+	text-align: center;
+	}
+	
+	#logo {
+	margin-left: 201px;
+	margin-top: 40px;
+	margin-bottom: -50px;
+	}
+	
+	header{
+	padding: 10px 10px;
+	}
+	
+	footer{
+	padding: 150px 720px;
+	}
